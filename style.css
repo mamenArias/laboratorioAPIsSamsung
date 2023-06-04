@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+}
+
+#loading{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio API's HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<br>
+
+    <h2>Cargar fichero de video</h2>
+    <input type="file" id="fileVideo" data-ext=".mp4">
+
+    <div id="loading">Cargando Video...</div>
+
+    <div id="videoContainer">
+        <video id="video" width="600" height="300" controls></video>
+    </div>
+
+    <div id="buttons">
+        <button id="play" onclick="document.getElementById('video').play();">Reproducir</button>
+        <button id="pause">Pausar</button>
+        <button id="moreVolumen">Subir volumen</button>
+        <button id="lessVolumen">Bajar volumen</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
